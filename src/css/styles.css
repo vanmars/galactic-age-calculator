@@ -6,15 +6,11 @@ body {
   background-size: cover;
 }
 
-a:hover {
+a:hover, .nav-link:hover {
   text-decoration: underline;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.formDiv {
+.formDiv, .resultDiv {
   display: none;
 }
 
