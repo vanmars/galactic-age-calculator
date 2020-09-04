@@ -11,6 +11,6 @@ export default class Calculator {
     this.lifeExpectancy = lifeExpectancy;
     this.mercuryAge = Math.floor(this.age/.24);
     this.venusAge = Math.floor(this.age/.62);
-    this.marsAge;
+    this.marsAge = Math.floor(this.age/1.88);;
   };
 };
