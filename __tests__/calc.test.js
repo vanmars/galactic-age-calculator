@@ -5,13 +5,16 @@ describe('Calculator', () => {
   beforeEach(() => {
     newCalc = new Calculator(31, 79);
   });
-test('should store inputted values of age and life expectancy', () => {
+test('1: should store inputted values of age and life expectancy', () => {
     expect(newCalc.age).toEqual(31);
     expect(newCalc.lifeExpectancy).toEqual(79);
   });
-test('should correctly return user age in mercury years', () => {
+test('2: should correctly return user age in mercury years', () => {
   newCalc.calculateAge(); 
   expect(newCalc.mercuryAge).toEqual(129);
+  });
+test('3: should correctly return user age in venus years', () => {
+  newCalc.calculateAge(); 
   expect(newCalc.venusAge).toEqual(50);
-});
+  });
 });

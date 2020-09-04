@@ -10,9 +10,11 @@ export default class Calculator {
     this.age = age;
     this.lifeExpectancy = lifeExpectancy;
     this.mercuryAge;
+    this.venusAge;
   };
 
   calculateAge(){
     this.mercuryAge = Math.floor(this.age/.24);
+    this.venusAge = Math.floor(this.age/.62);
   };
 };
