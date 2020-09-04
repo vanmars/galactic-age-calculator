@@ -41,6 +41,14 @@ Futher exploration challenges included:
 | 6 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on each planet | Earth Age: 31; Life Expectancy: 79  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
 | 7 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;|
 
+## Stretch Specifications
+| Test # | Behavior | Input | Output |
+| -------- | -------- | -------- | -------- |
+| 8 | Program returns user's age in Saturn years. | 31 | 1.05 |
+| 9 | Program returns user's age in Uranus years. | 31 | 0.369 |
+| 10 | Program returns user's age in Neptune years. | 31 | 0.188 |
+| 11 | Program returns user's age in Pluto years. | 31 | 0.125 |
+
 ## Setup/Installation Requirements
 
 To View Project:
