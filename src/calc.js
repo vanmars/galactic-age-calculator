@@ -12,6 +12,7 @@ export default class Calculator {
     this.mercuryAge;
   };
 
-  mercuryAge(){
+  mercuryCalc(){
+    this.mercuryAge = Math.floor(this.age/.24);
   };
 };

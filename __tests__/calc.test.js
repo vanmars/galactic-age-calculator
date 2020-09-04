@@ -10,6 +10,7 @@ test('should store inputted values of age and life expectancy', () => {
     expect(newCalc.lifeExpectancy).toEqual(79);
   });
   test('should correctly return user age in mercury years', () => {
-    expect(newCalc.mercuryAge).toEqual(200);
+    newCalc.mercuryCalc(); 
+    expect(newCalc.mercuryAge).toEqual(129);
   });
 });
