@@ -14,6 +14,7 @@ export default class Calculator {
     this.marsAge = Math.floor(this.age/1.88);
     this.jupiterAge = Math.floor(this.age/11.86);
     this.saturnAge = Number((this.age/29.46).toFixed(3));
+    this.uranusAge;
     this.mercuryYearsLeftOrPast = Math.floor(Math.abs(this.lifeExpectancy - age)/.24);
     this.venusYearsLeftOrPast  = Math.floor(Math.abs(this.lifeExpectancy - age)/.62);
     this.earthYearsLeftOrPast  = Math.floor(Math.abs(this.lifeExpectancy - age));
