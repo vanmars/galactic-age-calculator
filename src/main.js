@@ -25,6 +25,10 @@ $(document).ready(function(){
             <li>${newCalc.venusAge} Venusian years old</li>
             <li>${newCalc.marsAge} Martian years old</li>
             <li>${newCalc.jupiterAge} Jovian years old</li>
+            <li>${newCalc.saturnAge} Saturnian years old</li>
+            <li>${newCalc.uranusAge} Uranian years old</li>
+            <li>${newCalc.neptuneAge} Neptunian years old</li>
+            <li>${newCalc.plutoAge} Plutonian years old</li>
           </ul
           <hr>
           <p class='lead'>You have . . .</p>
@@ -33,6 +37,10 @@ $(document).ready(function(){
             <li>${newCalc.venusYearsLeftOrPast} Venusian years left</li>
             <li>${newCalc.marsYearsLeftOrPast} Martian years left</li>
             <li>${newCalc.jupiterYearsLeftOrPast} Jovian years left</li>
+            <li>${newCalc.saturnYearsLeftOrPast} Saturnian years left</li>
+            <li>${newCalc.uranusYearsLeftOrPast} Uranian years left</li>
+            <li>${newCalc.neptuneYearsLeftOrPast} Neptunian years left</li>
+            <li>${newCalc.plutoYearsLeftOrPast} Plutonian years left</li>
           </ul>`
         );
       } else {
@@ -43,6 +51,10 @@ $(document).ready(function(){
             <li>${newCalc.venusAge} Venusian years old</li>
             <li>${newCalc.marsAge} Martian years old</li>
             <li>${newCalc.jupiterAge} Jovian years old</li>
+            <li>${newCalc.saturnAge} Saturnian years old</li>
+            <li>${newCalc.uranusAge} Uranian years old</li>
+            <li>${newCalc.neptuneAge} Neptunian years old</li>
+            <li>${newCalc.plutoAge} Plutonian years old</li>
           </ul
           <hr>
           <p class='lead'>You have lived . . .</p>
@@ -51,6 +63,10 @@ $(document).ready(function(){
             <li>${newCalc.venusYearsLeftOrPast} Venusian years past expectancy</li>
             <li>${newCalc.marsYearsLeftOrPast} Martian years past expectancy</li>
             <li>${newCalc.jupiterYearsLeftOrPast} Jovian years past expectancy</li>
+            <li>${newCalc.saturnYearsLeftOrPast} Saturnian years past expectancy</li>
+            <li>${newCalc.uranusYearsLeftOrPast} Uranian years past expectancy</li>
+            <li>${newCalc.neptuneYearsLeftOrPast} Neptunian years past expectancy</li>
+            <li>${newCalc.plutoYearsLeftOrPast} Plutonian years past expectancy</li>
           </ul>`
         );
       }
