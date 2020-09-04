@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'project',
+      title: 'galactic-calc',
       template: './src/index.html',
       inject: 'body'
     })
