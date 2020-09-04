@@ -45,4 +45,7 @@ test('9: should correctly return user age in uranus years', () => {
 test('10: should correctly return user age in neptune years', () => {
     expect(newCalc.neptuneAge).toEqual(0.188);
   });
+test('11: should correctly return user age in pluto years', () => {
+    expect(newCalc.plutoAge).toEqual(0.125);
+  });
 });
