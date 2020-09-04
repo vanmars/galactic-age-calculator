@@ -1,5 +1,5 @@
 body { 
-  background: url(./../assets/images/galaxy.jpg) no-repeat center center fixed; 
+  background: url(./../assets/images/sunrise.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,7 +9,11 @@ body {
 a:hover {
   text-decoration: underline;
 }
+
 .nav-link:hover {
   text-decoration: underline;
-  color: grey;
+}
+
+main {
+  margin-top: 5%;
 }
