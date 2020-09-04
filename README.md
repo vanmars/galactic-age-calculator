@@ -44,7 +44,7 @@ Futher exploration challenges included:
 ## Stretch Specifications
 | Test # | Behavior | Input | Output |
 | -------- | -------- | -------- | -------- |
-| 8 | Program returns user's age in Saturn years. | 31 | 1.05 |
+| 8 | Program returns user's age in Saturn years. | 31 | 1.052 |
 | 9 | Program returns user's age in Uranus years. | 31 | 0.369 |
 | 10 | Program returns user's age in Neptune years. | 31 | 0.188 |
 | 11 | Program returns user's age in Pluto years. | 31 | 0.125 |
