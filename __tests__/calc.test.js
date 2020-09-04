@@ -50,8 +50,8 @@ test('11: should correctly return user age in pluto years', () => {
   });
 test('12: should correctly return expected years left on planets saturn through pluto', () => {
     expect(newCalc.saturnYearsLeftOrPast).toEqual(1.629);
-    expect(newCalc.uranusYearsLeftOrPast).toEqual(0.369);
-    expect(newCalc.neptuneYearsLeftOrPast).toEqual(0.188);
-    expect(newCalc.plutoYearsLeftOrPast).toEqual(0.125);
+    expect(newCalc.uranusYearsLeftOrPast).toEqual(0.571);
+    expect(newCalc.neptuneYearsLeftOrPast).toEqual(0.291);
+    expect(newCalc.plutoYearsLeftOrPast).toEqual(0.193);
   });
 });
