@@ -68,7 +68,7 @@ _Connect with me at vamariestewart@gmail.com with ideas to improve this project.
 * CSS/Bootstrap
 * JavaScript/jQuery
 * Jest
-* webpack
+* Webpack
 
 ### License
 
