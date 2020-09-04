@@ -1,8 +1,3 @@
-// | Test # | Behavior | Input | Output |
-// | -------- | -------- | -------- | -------- |
-// | 12 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on planets Saturn through Pluto | Earth Age: 31; Life Expectancy: 79  | Saturn Years Left: 1.629; Uranus Years Left: 0.571; Neptune Years Left: 0.291; Pluto Years Left: 0.193;  |
-// | 13 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Saturn Years Lived Past Expectancy: 0.713; Uranus Years Lived Past Expectancy: 0.250; Neptune Years Lived Past Expectancy: 0.127; Pluto Years Lived Past Expectancy: 0.084;|
-
 export default class Calculator {
   constructor (age, lifeExpectancy){
     this.age = age;
