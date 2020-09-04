@@ -14,6 +14,11 @@ a:hover {
   text-decoration: underline;
 }
 
-main {
-  margin-top: 20%;
+.formDiv {
+  display: none;
+}
+
+.form-control {
+  width: 50%;
+  margin: auto;
 }

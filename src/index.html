@@ -16,14 +16,33 @@
         </nav>
       </div>
     </header>
-    <main role="main" class="inner cover ">
-      <div class="calculateDiv my-auto text-white">
+    <main role="main" class="inner cover">
+      <br>
+      <br>
+      <div class="calculateDiv m-auto text-white">
         <h1 class="cover-heading ">Calculate Your Galactic Age!</h1>
         <p class="lead">The Galactic Age Calculator reveals your current age in terms of planet years.</p>
         <p class="lead">It also calculates how many planet years you have remaining . . .</p>
         <p class="lead">
-          <button class="btn btn-lg btn-dark bg-dark">Calculate!</button>
+          <button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button>
         </p>
+      </div>
+      <div class="formDiv card shadow bg-dark w-50 m-auto text-white p-3">
+        <form>
+          <h4>Complete this form.</h4>
+          <br>
+          <div class="form-group">
+            <label for="age">Please enter your age:</label>
+            <input id="age" type="text" placeholder="Example: 31" class="form-control" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="lifeExpectancy">Based on your demographics, enter a life expectancy in years:</label>
+            <input id="lifeExpectancy" type="text" placeholder="Example: 79" class="form-control" required>
+          </div>
+          <br>
+          <button class="btn btn-primary" type="submit">See results!</button>
+        </form>
       </div>
     </main>
     <footer class="mastfoot mt-auto fixed-bottom">
