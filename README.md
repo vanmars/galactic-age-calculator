@@ -27,12 +27,13 @@ _Take a person's age in years and create a class that does the following:_
 ## Specifications
 |Test #| Behavior | Input    | Output   |
 | -------- | -------- | -------- | -------- |
-| 1 | Program returns user's age in Mercury years. | 31 | 129 |
-| 2 | Program returns user's age in Venus years. | 31 | 50 |
-| 3 | Program returns user's age in Mars years. | 31 | 16 |
-| 4 | Program returns user's age in Jupiter years. | 31 | 2 |
-| 5 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on each planet | Life Expectancy: 79; Earth Age: 31  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
-| 6 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;||
+| 1 | Program creates a Calculator Constructor that stores user's age and life expectancy inputs. | Earth Age: 31; Life Expectancy: 79 | Calculator.age = 31; Calculator.lifeExpectancy = 79 |
+| 2 | Program returns user's age in Mercury years. | 31 | 129 |
+| 3 | Program returns user's age in Venus years. | 31 | 50 |
+| 4 | Program returns user's age in Mars years. | 31 | 16 |
+| 5 | Program returns user's age in Jupiter years. | 31 | 2 |
+| 6 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on each planet | Earth Age: 31; Life Expectancy: 79  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
+| 7 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;||
 
 ## Setup/Installation Requirements
 
