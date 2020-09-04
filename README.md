@@ -58,6 +58,9 @@ To Extend This Project:
 
 _There are no known bugs at this time._
 
+Items to Improve:
+* Change background image so white text is readable at all viewport sizes
+
 ## Support and contact details
 
 _Connect with me at vamariestewart@gmail.com with ideas to improve this project._

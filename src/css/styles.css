@@ -1,5 +1,5 @@
 body { 
-  background: url(./../assets/images/sunrise.jpg) no-repeat center center fixed; 
+  background: url(./../assets/images/sunrise:moon.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,5 +15,5 @@ a:hover {
 }
 
 main {
-  margin-top: 5%;
+  margin-top: 20%;
 }
