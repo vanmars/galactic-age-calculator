@@ -8,7 +8,7 @@ _4 September 2020_
 
 ## Description
 
-This is a project completed for Epicodus to practice testing business logic with Jest, using webpack to bundle and lint code, running an npm to manage dependencies, and implementing ES6 features including classes and template literals, and following a Red, Green Refactor workflow during test-driven development.
+This is a project completed for Epicodus to practice testing business logic with Jest, using webpack to bundle and lint code, running an npm to manage dependencies, implementing ES6 features including classes and template literals, and following a Red, Green Refactor workflow during test-driven development.
 
 The original directions are as follows:
 
@@ -53,9 +53,6 @@ Futher exploration challenges included:
 
 ## Setup/Installation Requirements
 
-To View Project:
-* Open a web browser of your choice and navigate to the following page:
-
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal/command line.
 * Navigate to cloned folder in terminal and run 'npm install' to download all dependencies.
@@ -69,7 +66,9 @@ To Extend This Project:
 _There are no known bugs at this time._
 
 Items to Improve:
-* Change background image so white text is readable at all viewport sizes
+* Resize planet cards and images
+* Add linkes for each planet card
+* Add event handler to reset button to reset form and return to start screen
 
 ## Support and contact details
 

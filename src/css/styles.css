@@ -18,3 +18,7 @@ a:hover, .nav-link:hover {
   width: 50%;
   margin: auto;
 }
+img {
+  width: 10%;
+  height: 10%;
+}

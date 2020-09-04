@@ -19,14 +19,6 @@
     <main role="main" class="inner cover">
       <br>
       <br>
-      <div class="calculateDiv m-auto text-white">
-        <h1 class="cover-heading ">Super Galactic Age Calculator</h1>
-        <p class="lead">The Galactic Age Calculator reveals your current age in terms of planet years.</p>
-        <p class="lead">It also calculates how many planet years you have remaining . . .</p>
-        <p class="lead">
-          <button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button>
-        </p>
-      </div>
       <div class="formDiv card shadow bg-dark w-50 m-auto text-white p-3">
         <form>
           <h4>Complete this form.</h4>
@@ -45,12 +37,12 @@
         </form>
       </div>
 
-      <div class="resultDiv card shadow text-left bg-dark m-auto text-left p-3">
+      <div class="resultDiv w-65 m-auto text-left p-3">
         <div class="row row-cols-1 row-cols-md-3">
 
           <div class="col mb-4">
             <div class="card mercury">
-              <img src="./assets/images/mercury.jpeg" class="card-img-top" alt="mercury">
+              <img src="./assets/images/mercury.png" class="card-img-top" alt="mercury">
               <div class="card-body">
                 <h5 class="card-title">Mercury</h5>
                 <p id="mercuryResult" class="card-text"></p>
@@ -150,11 +142,22 @@
         <button class="btn btn-primary">Reset</button>
       </div>
     </main>
-    <footer class="mastfoot mt-auto fixed-bottom">
-      <div class="inner">
-        <p class="text-white">Created by <a href="https://www.linkedin.com/in/vanessa-m-stewart/">Vanessa Stewart</a></p>
-      </div>
-    </footer>
+    
   </div>
+  <footer class="mastfoot mt-auto fixed-bottom">
+    <div class="calculateDiv m-auto text-white">
+      <h1 class="cover-heading">Super Galactic Age Calculator</h1>
+      <p class="lead">The Galactic Age Calculator reveals your current age in terms of planet years.</p>
+      <p class="lead">It also calculates how many planet years you have remaining . . .</p>
+      <p class="lead">
+        <button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button>
+      </p>
+    </div>
+    <br>
+    <br>
+    <div class="inner">
+      <p class="text-white">Created by <a href="https://www.linkedin.com/in/vanessa-m-stewart/">Vanessa Stewart</a></p>
+    </div>
+  </footer>
 </body>
 </html>
