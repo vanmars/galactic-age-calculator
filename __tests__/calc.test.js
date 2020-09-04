@@ -22,10 +22,18 @@ test('5: should correctly return user age in jupiter years', () => {
     expect(newCalc.jupiterAge).toEqual(2);
   });
 test('6: should correctly return expected years left on each planet', () => {
-    expect(newCalc.mercuryYearsLeft).toEqual(200);
-    expect(newCalc.venusYearsLeft).toEqual(77);
-    expect(newCalc.earthYearsLeft).toEqual(48);
-    expect(newCalc.marsYearsLeft).toEqual(25);
-    expect(newCalc.jupiterYearsLeft).toEqual(4);
+    expect(newCalc.mercuryYearsLeftOrPassed ).toEqual(200);
+    expect(newCalc.venusYearsLeftOrPassed ).toEqual(77);
+    expect(newCalc.earthYearsLeftOrPassed ).toEqual(48);
+    expect(newCalc.marsYearsLeftOrPassed ).toEqual(25);
+    expect(newCalc.jupiterYearsLeftOrPassed ).toEqual(4);
+  });
+test('7: should correctly return years lived past expected on each planet', () => {
+    newCalc = new Calculator(100, 79);
+    expect(newCalc.mercuryYearsLeftOrPassed ).toEqual(87);
+    expect(newCalc.venusYearsLeftOrPassed ).toEqual(33);
+    expect(newCalc.earthYearsLeftOrPassed ).toEqual(21);
+    expect(newCalc.marsYearsLeftOrPassed ).toEqual(11);
+    expect(newCalc.jupiterYearsLeftOrPassed ).toEqual(1);
   });
 });

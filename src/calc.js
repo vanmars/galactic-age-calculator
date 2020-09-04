@@ -13,10 +13,10 @@ export default class Calculator {
     this.venusAge = Math.floor(this.age/.62);
     this.marsAge = Math.floor(this.age/1.88);
     this.jupiterAge = Math.floor(this.age/11.86);
-    this.mercuryYearsLeft = Math.floor((this.lifeExpectancy - age)/.24);
-    this.venusYearsLeft = Math.floor((this.lifeExpectancy - age)/.62);
-    this.earthYearsLeft = Math.floor((this.lifeExpectancy - age));
-    this.marsYearsLeft = Math.floor((this.lifeExpectancy - age)/1.88);
-    this.jupiterYearsLeft = Math.floor((this.lifeExpectancy - age)/11.86);
+    this.mercuryYearsLeftOrPassed = Math.floor((this.lifeExpectancy - age)/.24);
+    this.venusYearsLeftOrPassed  = Math.floor((this.lifeExpectancy - age)/.62);
+    this.earthYearsLeftOrPassed  = Math.floor((this.lifeExpectancy - age));
+    this.marsYearsLeftOrPassed  = Math.floor((this.lifeExpectancy - age)/1.88);
+    this.jupiterYearsLeftOrPassed  = Math.floor((this.lifeExpectancy - age)/11.86);
   };
 };
