@@ -38,7 +38,7 @@ Futher exploration challenges included:
 | 3 | Program returns user's age in Venus years. | 31 | 50 |
 | 4 | Program returns user's age in Mars years. | 31 | 16 |
 | 5 | Program returns user's age in Jupiter years. | 31 | 2 |
-| 6 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on each planet | Earth Age: 31; Life Expectancy: 79  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
+| 6 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on planets Mercury through Jupiter | Earth Age: 31; Life Expectancy: 79  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
 | 7 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;|
 
 ## Stretch Specifications
@@ -48,6 +48,8 @@ Futher exploration challenges included:
 | 9 | Program returns user's age in Uranus years. | 31 | 0.369 |
 | 10 | Program returns user's age in Neptune years. | 31 | 0.188 |
 | 11 | Program returns user's age in Pluto years. | 31 | 0.125 |
+| 12 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on planets Saturn through Pluto | Earth Age: 31; Life Expectancy: 79  | Saturn Years Left: 1.629; Uranus Years Left: 0.571; Neptune Years Left: 0.291; Pluto Years Left: 0.193;  |
+| 13 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Saturn Years Lived Past Expectancy: 0.713; Uranus Years Lived Past Expectancy: 0.250; Neptune Years Lived Past Expectancy: 0.127; Pluto Years Lived Past Expectancy: 0.084;|
 
 ## Setup/Installation Requirements
 
@@ -56,7 +58,7 @@ To View Project:
 
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal/command line.
-* Navigate to cloned folder in terminal and run 'npm install'to download all dependencies.
+* Navigate to cloned folder in terminal and run 'npm install' to download all dependencies.
 * Open the cloned repo in a text editor of your choice.
 * Use 'index.html' as the central HTML file and 'main.js' as the central JS file to make changes.
 * To view project in a browser: Run 'npm run start', which will bundle HTML and JS files and launch a server.
