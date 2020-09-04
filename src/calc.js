@@ -1,3 +1,10 @@
+// | Test # | Behavior | Input | Output |
+// | -------- | -------- | -------- | -------- |
+// | 8 | Program returns user's age in Saturn years. | 31 | 1.05 |
+// | 9 | Program returns user's age in Uranus years. | 31 | 0.369 |
+// | 10 | Program returns user's age in Neptune years. | 31 | 0.188 |
+// | 11 | Program returns user's age in Pluto years. | 31 | 0.125 |
+
 export default class Calculator {
   constructor (age, lifeExpectancy){
     this.age = age;
