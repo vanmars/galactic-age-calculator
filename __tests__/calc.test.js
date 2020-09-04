@@ -54,4 +54,11 @@ test('12: should correctly return expected years left on planets saturn through 
     expect(newCalc.neptuneYearsLeftOrPast).toEqual(0.291);
     expect(newCalc.plutoYearsLeftOrPast).toEqual(0.193);
   });
+  test('13: should correctly return years lived past expected on  planets saturn - pluto', () => {
+    newCalc = new Calculator(100, 79);
+    expect(newCalc.saturnYearsLeftOrPast).toEqual();
+    expect(newCalc.uranusYearsLeftOrPast).toEqual();
+    expect(newCalc.neptuneYearsLeftOrPast).toEqual();
+    expect(newCalc.plutoYearsLeftOrPast).toEqual();
+  });
 });
