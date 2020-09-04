@@ -12,7 +12,7 @@ This is a project completed for Epicodus to practice testing business logic with
 
 The original directions are as follows:
 
-_A_ solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user's age based on a planet's solar years._
+_A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user's age based on a planet's solar years._
 
 _Take a person's age in years and create a class that does the following:_
 
@@ -23,9 +23,15 @@ _Take a person's age in years and create a class that does the following:_
 * _Determines how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user's life expectancy. You can determine average life expectancy as you see fit. A simple way to do this would be to have the user input the average life expectancy for their demographic. A more involved way to do this would be to collect other information from the user (e.g. lifestyle, country of residence, activity level, etc.) to determine their life expectancy._
 * _If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy._
 
+Futher exploration challenges included:
+* Add a UI to your application.
+* Return the date of a user's next birthday on each planet.
+* Return the age Keith Richards will be in dog years on the planet Jupiter in 2073.
+* Assuming that the average lifespan of a mayfly is 5 minutes, determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun.
+* Make your application look nice and give it a solar theme!
 
 ## Specifications
-|Test #| Behavior | Input    | Output   |
+| Test # | Behavior | Input | Output |
 | -------- | -------- | -------- | -------- |
 | 1 | Program creates a Calculator Constructor that stores user's age and life expectancy inputs. | Earth Age: 31; Life Expectancy: 79 | Calculator.age = 31; Calculator.lifeExpectancy = 79 |
 | 2 | Program returns user's age in Mercury years. | 31 | 129 |
@@ -33,7 +39,7 @@ _Take a person's age in years and create a class that does the following:_
 | 4 | Program returns user's age in Mars years. | 31 | 16 |
 | 5 | Program returns user's age in Jupiter years. | 31 | 2 |
 | 6 | Given a user input of their expected life expectancy given their demographics, program returns years a user has left to live on each planet | Earth Age: 31; Life Expectancy: 79  | Mercury Years Left: 200; Venus Years Left: 77; Earth Years Left: 48; Mars Years Left: 25; Jupiter Years Left: 4;  |
-| 7 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;||
+| 7 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Mercury Years Lived Past Expectancy: 87; Venus Years Lived Past Expectancy: 33; Earth Years Lived Past Expectancy: 21; Mars Years Lived Past Expectancy: 11; Jupiter Years Lived Past Expectancy: 1;|
 
 ## Setup/Installation Requirements
 
