@@ -21,4 +21,11 @@ test('4: should correctly return user age in mars years', () => {
 test('5: should correctly return user age in jupiter years', () => {
     expect(newCalc.jupiterAge).toEqual(2);
   });
+  test('6: should correctly return expected years left on each planet', () => {
+    expect(newCalc.mercuryYearsLeft).toEqual(200);
+    expect(newCalc.venusYearsLeft).toEqual(77);
+    expect(newCalc.earthYearsLeft).toEqual(48);
+    expect(newCalc.marsYearsLeft).toEqual(25);
+    expect(newCalc.jupiterYearsLeft).toEqual(4);
+  });
 });

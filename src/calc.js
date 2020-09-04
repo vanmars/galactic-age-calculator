@@ -13,5 +13,10 @@ export default class Calculator {
     this.venusAge = Math.floor(this.age/.62);
     this.marsAge = Math.floor(this.age/1.88);
     this.jupiterAge = Math.floor(this.age/11.86);
+    this.mercuryYearsLeft;
+    this.venusYearsLeft;
+    this.earthYearsLeft;
+    this.marsYearsLeft;
+    this.jupiterYearsLeft;
   };
 };
