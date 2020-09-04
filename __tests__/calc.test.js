@@ -15,4 +15,7 @@ test('2: should correctly return user age in mercury years', () => {
 test('3: should correctly return user age in venus years', () => {
   expect(newCalc.venusAge).toEqual(50);
   });
+test('4: should correctly return user age in mars years', () => {
+  expect(newCalc.marsAge).toEqual(16);
+  });
 });
