@@ -67,7 +67,8 @@ _There are no known bugs at this time._
 
 Items to Improve:
 * Resize planet cards and images
-* Add event handler to reset button to reset form and return to start screen
+* Add extra functions page to fulfill all futher exploration challenges.
+* check for ways to refactor code.
 
 ## Support and contact details
 

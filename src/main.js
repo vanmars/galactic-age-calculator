@@ -12,11 +12,10 @@ $(document).ready(function(){
     // Form Submit Event Handler
     $("form").submit(function(event){
       event.preventDefault();
+      const inputtedName = $("#name").val();
       const inputtedAge = parseInt($("#age").val());
       const inputtedLifeExpectancy = parseInt($("#lifeExpectancy").val());
       let newCalc = new Calculator(inputtedAge, inputtedLifeExpectancy);
-      $(".formDiv").hide();
-      $(".resultDiv").show();
       if(newCalc.age <= newCalc.lifeExpectancy){
         $("#mercuryResult").html(
           `<ul>
@@ -72,31 +71,6 @@ $(document).ready(function(){
              <li>You have ${newCalc.plutoYearsLeftOrPast} Plutonian years left</li>
           </ul>`
         );
-        // $(".resultDiv").html(
-        //   `<p class='lead'>You are . . .</p>
-        //   <ul>
-        //     <li>${newCalc.mercuryAge} Mercurian years old</li>
-        //     <li>${newCalc.venusAge} Venusian years old</li>
-        //     <li>${newCalc.marsAge} Martian years old</li>
-        //     <li>${newCalc.jupiterAge} Jovian years old</li>
-        //     <li>${newCalc.saturnAge} Saturnian years old</li>
-        //     <li>${newCalc.uranusAge} Uranian years old</li>
-        //     <li>${newCalc.neptuneAge} Neptunian years old</li>
-        //     <li>${newCalc.plutoAge} Plutonian years old</li>
-        //   </ul
-        //   <hr>
-        //   <p class='lead'>You have . . .</p>
-        //   <ul>
-        //     <li>${newCalc.mercuryYearsLeftOrPast} Mercurian years left</li>
-        //     <li>${newCalc.venusYearsLeftOrPast} Venusian years left</li>
-        //     <li>${newCalc.marsYearsLeftOrPast} Martian years left</li>
-        //     <li>${newCalc.jupiterYearsLeftOrPast} Jovian years left</li>
-        //     <li>${newCalc.saturnYearsLeftOrPast} Saturnian years left</li>
-        //     <li>${newCalc.uranusYearsLeftOrPast} Uranian years left</li>
-        //     <li>${newCalc.neptuneYearsLeftOrPast} Neptunian years left</li>
-        //     <li>${newCalc.plutoYearsLeftOrPast} Plutonian years left</li>
-        //   </ul>`
-        // );
       } else {
         $("#mercuryResult").html(
           `<ul>
@@ -178,6 +152,17 @@ $(document).ready(function(){
         //   </ul>`
         );
       }
+      $("#nameReturn").text(inputtedName);
+      $(".formDiv").hide();
+      $(".resultDiv").show();
+
+
+      // Reset Form Event Handler
+      $("#returnBtn").click(function(){
+        $("form")[0].reset();
+        $(".resultDiv").hide();
+        $(".formDiv").show();
+      });
     });
   });
 });

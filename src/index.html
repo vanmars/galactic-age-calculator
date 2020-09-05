@@ -23,15 +23,20 @@
       <!-- Form -->
       <div class="formDiv card shadow bg-dark w-50 m-auto text-white p-3">
         <form>
-          <h4>Complete this form.</h4>
+          <h4>Please complete this form.</h4>
           <br>
           <div class="form-group">
-            <label for="age">Please enter your age:</label>
+            <label for="name">What's your name, planetary explorer?</label>
+            <input id="name" type="text" placeholder="Example: Vega" class="form-control" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="age">How old are you? Enter a number.</label>
             <input id="age" type="text" placeholder="Example: 31" class="form-control" required>
           </div>
           <br>
           <div class="form-group">
-            <label for="lifeExpectancy">Based on your demographics, enter a life expectancy in years:</label>
+            <label for="lifeExpectancy">Based on your particular demographics,<br>enter a life expectancy in years:</label>
             <input id="lifeExpectancy" type="text" placeholder="Example: 79" class="form-control" required>
           </div>
           <br>
@@ -40,6 +45,8 @@
       </div>
       <!-- Planet Cards and Age Results -->
       <div class="resultDiv w-75 m-auto text-left p-3">
+        <h1 class="text-white"><span id="nameReturn" ></span>'s Galactic Age Results</h1>
+        <br>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col mb-4">
             <div class="card mercury">
@@ -147,9 +154,9 @@
   <!-- HomePage Opening Div -->
   <footer class="mastfoot mt-auto fixed-bottom">
     <div class="calculateDiv m-auto text-white">
-      <h1 class="cover-heading">Galactic Age Calculator</h1>
-      <p class="lead">Discover your current age in different planet years with the Galactic Age Calculator!</p>
-      <p class="lead">This calculator also reveals how many planet years you have remaining . . .</p>
+      <h1 class="cover-heading">Welcome!</h1>
+      <p class="lead">Discover your age on different planets with the Galactic Age Calculator!</p>
+      <p class="lead">The GAC also reveals how many planet years you have remaining . . .</p>
       <p class="lead"><button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button></p>
       <br>
       <br>
