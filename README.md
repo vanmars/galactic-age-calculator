@@ -57,21 +57,20 @@ To View This Project:
  
 
 To Extend This Project:
-* Clone this project using the 'git clone' command in terminal/command line.
+* Clone this repo using the 'git clone' command in terminal/command line.
 * Navigate to cloned folder in terminal and run 'npm install' to download all dependencies.
-* Open the cloned repo in a text editor of your choice.
-* Use 'index.html' as the central HTML file and 'main.js' as the central JS file to make changes.
+* Open the cloned folder in a text editor of your choice.
 * Have fun!
 
 Once project is cloned and dependencies are installed, to view project in a browser: 
-* Run 'npm run start' in terminal, which will bundle HTML and JS files and launch a server.
+* Run 'npm run start' in terminal, which will bundle files and launch a server.
 OR
-* Run 'npm run build', in terminal, which will bundle files, then open dist/index.html in a browswer or with your own server.
+* Run 'npm run build' in terminal, which will bundle files, then open dist/index.html in a browswer or with your own server.
 
 
 ## Known Bugs
 
-* Link to extra features leads no where as this page is not built out yet. Hope to complete the extra challenges in future and will add them to this page.
+_There are no known bugs at this time._
 
 Items to Improve:
 * Tweak image sizing on planet cards so cards are all of equal height
