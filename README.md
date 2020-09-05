@@ -52,6 +52,9 @@ Futher exploration challenges included:
 | 13 | If a user, has surpassed the average life expectancy, the program returns the number of years they have lived past the life expectancy.| Life Expectancy: 79; Earth Age: 100 | Saturn Years Lived Past Expectancy: 0.713; Uranus Years Lived Past Expectancy: 0.250; Neptune Years Lived Past Expectancy: 0.127; Pluto Years Lived Past Expectancy: 0.084;|
 
 ## Setup/Installation Requirements
+To View This Project:
+* Open a broswer of your choice and navigate to the following page: https://vanmars.github.io/galactic-age-calculator/dist.index.html.
+ 
 
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal/command line.
