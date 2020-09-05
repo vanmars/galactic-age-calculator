@@ -44,7 +44,7 @@ $(document).ready(function(){
         $("#jupiterResult").html(
           `<ul>
              <li>You are ${newCalc.jupiterAge} Jovian years old.</li>
-             <li>You have ${newCalc.jupiterYearsLeftOrPast} Joavian years left.</li>
+             <li>You have ${newCalc.jupiterYearsLeftOrPast} Jovian years left.</li>
           </ul>`
         );
         $("#saturnResult").html(
@@ -99,7 +99,7 @@ $(document).ready(function(){
         $("#jupiterResult").html(
           `<ul>
             <li>You are ${newCalc.jupiterAge} Jovian years old.</li>
-            <li>You have lived  ${newCalc.jupiterYearsLeftOrPast} Joavian years past expectancy.</li>
+            <li>You have lived  ${newCalc.jupiterYearsLeftOrPast} Jovian years past expectancy.</li>
           </ul>`
         );
         $("#saturnResult").html(
