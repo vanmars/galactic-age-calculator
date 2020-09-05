@@ -7,7 +7,8 @@
 </head>
 <body class="text-center">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <!-- <header class="masthead mb-auto">
+    <!-- Header -->
+    <header class="masthead mb-auto">
       <div class="inner">
         <h3 class="masthead-brand text-white">Super Galactic Age Calculator</h3>
         <nav class="nav nav-masthead justify-content-center">
@@ -15,10 +16,11 @@
           <a class="nav-link" href="extras.html">Extra Functions</a>
         </nav>
       </div>
-    </header> -->
-    <main role="main" class="inner cover">
+    </header>
+    <main role="main" class="cover">
       <br>
       <br>
+      <!-- Form -->
       <div class="formDiv card shadow bg-dark w-50 m-auto text-white p-3">
         <form>
           <h4>Complete this form.</h4>
@@ -36,10 +38,9 @@
           <button class="btn btn-primary" type="submit">See results!</button>
         </form>
       </div>
-
+      <!-- Planet Cards and Age Results -->
       <div class="resultDiv w-75 m-auto text-left p-3">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-
           <div class="col mb-4">
             <div class="card mercury">
               <img src="./assets/images/mercury.png" class="card-img-top" alt="mercury">
@@ -50,7 +51,6 @@
               </div>
             </div>
           </div>
-
           <div class="col mb-4">
             <div class="card venus">
               <img src="./assets/images/venus.jpeg" class="card-img-top" alt="venus">
@@ -139,23 +139,20 @@
             </div>
           </div>
         </div>
-        <button id="returnBtn" class="btn btn-primary">Return to Form</button>
+        <button id="returnBtn" class="btn btn-primary d-block mx-auto">Return to Form</button>
       </div>
     </main>
     
   </div>
+  <!-- HomePage Opening Div -->
   <footer class="mastfoot mt-auto fixed-bottom">
     <div class="calculateDiv m-auto text-white">
       <h1 class="cover-heading">Galactic Age Calculator</h1>
       <p class="lead">Discover your current age in different planet years with the Galactic Age Calculator!</p>
       <p class="lead">This calculator also reveals how many planet years you have remaining . . .</p>
-      <p class="lead">
-        <button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button>
-      </p>
-    </div>
-    <br>
-    <br>
-    <div class="inner">
+      <p class="lead"><button id="calculateBtn" class="btn btn-lg btn-primary">Calculate!</button></p>
+      <br>
+      <br>
       <p class="text-white">Created by <a href="https://www.linkedin.com/in/vanessa-m-stewart/">Vanessa Stewart</a></p>
     </div>
   </footer>
