@@ -53,7 +53,7 @@ Futher exploration challenges included:
 
 ## Setup/Installation Requirements
 To View This Project:
-* Open a broswer of your choice and navigate to the following page: https://vanmars.github.io/galactic-age-calculator/dist.index.html.
+* Open a broswer of your choice and navigate to the following page: https://vanmars.github.io/galactic-age-calculator/dist/index.html.
  
 
 To Extend This Project:
