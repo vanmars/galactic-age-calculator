@@ -66,9 +66,8 @@ To Extend This Project:
 _There are no known bugs at this time._
 
 Items to Improve:
-* Resize planet cards and images
+* Tweak image sizing on planet cards so cards are all of equal height
 * Add extra functions page to fulfill all futher exploration challenges.
-* check for ways to refactor code.
 
 ## Support and contact details
 

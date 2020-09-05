@@ -43,8 +43,8 @@ $(document).ready(function(){
         );
         $("#jupiterResult").html(
           `<ul>
-             <li>You are ${newCalc.jupiterAge} Jovian years old</li>
-             <li>You have ${newCalc.jupiterYearsLeftOrPast} Joavian years left</li>
+             <li>You are ${newCalc.jupiterAge} Jovian years old.</li>
+             <li>You have ${newCalc.jupiterYearsLeftOrPast} Joavian years left.</li>
           </ul>`
         );
         $("#saturnResult").html(
