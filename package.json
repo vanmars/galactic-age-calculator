@@ -10,7 +10,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vanessa Stewart",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.2",
