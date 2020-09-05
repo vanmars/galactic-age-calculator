@@ -67,7 +67,7 @@ _There are no known bugs at this time._
 
 Items to Improve:
 * Resize planet cards and images
-* Add linkes for each planet card
+* Figure out how to keep footer from overlaying main text
 * Add event handler to reset button to reset form and return to start screen
 
 ## Support and contact details
